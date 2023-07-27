@@ -246,13 +246,19 @@ footer p {
   .main-container {
     display: grid;
     grid-template-areas: "main-section article-section";
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 3.4rem;
     padding-top: 4.4rem;
     max-width: 1440px;
     margin-inline: auto;
     padding-inline: 5%;
     box-sizing: content-box;
+  }
+
+  .title-like-dislike {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   main * {
