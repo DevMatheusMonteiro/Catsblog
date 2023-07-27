@@ -160,10 +160,21 @@ main * {
   animation: move 1s 1.2s backwards;
 }
 
-.main-section > img {
+.main-cat {
+  width: 100%;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+
+.main-cat > img {
   aspect-ratio: 16/9;
   width: 100%;
   object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+.main-cat:hover img {
+  transform: scale(1.1);
 }
 
 .like-dislike {
@@ -194,13 +205,11 @@ main .description {
 }
 
 .cat-text {
-  --delay: 2.5s;
-  animation: appear 1s var(--delay) backwards ease-in-out;
-}
-
-.cat-text {
   display: flex;
   gap: 1.6rem;
+  background-color: var(--white);
+  --delay: 2.5s;
+  animation: appear 1s var(--delay) backwards ease-in-out;
 }
 
 .cat-text:first-of-type {
@@ -211,12 +220,24 @@ main .description {
   margin-top: 3.2rem;
 }
 
-.cat-text img {
+.cats {
+  max-width: 15.2rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  aspect-ratio: 16/9;
+}
+
+.cat-text:hover img {
+  transform: scale(1.1);
+}
+
+.cat-text .cats img {
   aspect-ratio: 16/9;
   width: 100%;
-  max-width: 15.2rem;
+  height: 100%;
   object-fit: cover;
-  border-radius: 0.5rem;
+  display: block;
+  transition: 0.5s ease-in-out;
 }
 
 .cat-text h3 {
@@ -270,7 +291,7 @@ footer p {
     grid-area: main-section;
   }
 
-  .main-section img {
+  .main-cat {
     border-radius: 0.5rem;
   }
 
