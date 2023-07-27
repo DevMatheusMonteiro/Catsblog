@@ -77,7 +77,6 @@ body {
     "footer";
   grid-template-columns: 1fr;
   grid-template-rows: max-content 1fr max-content;
-  overflow: hidden;
 }
 
 header {
@@ -230,7 +229,7 @@ main .description {
 
 footer {
   grid-area: footer;
-  height: 6.4rem;
+  padding: 1.6rem;
   background-color: var(--blue);
   display: flex;
   align-items: center;
