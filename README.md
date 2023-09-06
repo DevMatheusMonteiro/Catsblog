@@ -5,5 +5,5 @@ Responsive web page
 - Responsive
 - Display Grid
 - Animation
-### Authors
-@DevMatheusMonteiro
+### Author
+[@DevMatheusMonteiro](https://github.com/DevMatheusMonteiro)
