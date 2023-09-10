@@ -1,9 +1,10 @@
 # Catsblog
-Responsive web page
+A cat blog made on the [Rocketseat](https://www.rocketseat.com.br/) Explorer. 
 
-## Apprenticeship
-- Responsive
-- Display Grid
-- Animation
+## What was applied:
+ - Responsiveness using the Mobile-first rule
+ - Display Grid
+ - Animations
+
 ### Author
 [@DevMatheusMonteiro](https://github.com/DevMatheusMonteiro)
